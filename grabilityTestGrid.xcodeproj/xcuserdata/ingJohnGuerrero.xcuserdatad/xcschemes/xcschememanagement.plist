@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>grabilityTestGrid.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>111107C81C33C0B7009725A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>111107E11C33C0BC009725A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>111107EC1C33C0BE009725A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

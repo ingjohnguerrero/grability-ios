@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111107CE1C33C0B8009725A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107CD1C33C0B8009725A2 /* main.m */; };
+		111107D11C33C0B8009725A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107D01C33C0B8009725A2 /* AppDelegate.m */; };
+		111107D41C33C0B9009725A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107D31C33C0B9009725A2 /* ViewController.m */; };
+		111107D71C33C0B9009725A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111107D51C33C0B9009725A2 /* Main.storyboard */; };
+		111107D91C33C0BA009725A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111107D81C33C0BA009725A2 /* Assets.xcassets */; };
+		111107DC1C33C0BB009725A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111107DA1C33C0BB009725A2 /* LaunchScreen.storyboard */; };
+		111107E71C33C0BD009725A2 /* grabilityTestGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107E61C33C0BD009725A2 /* grabilityTestGridTests.m */; };
+		111107F21C33C0BF009725A2 /* grabilityTestGridUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107F11C33C0BF009725A2 /* grabilityTestGridUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		111107E31C33C0BC009725A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111107C11C33C0B7009725A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 111107C81C33C0B7009725A2;
+			remoteInfo = grabilityTestGrid;
+		};
+		111107EE1C33C0BE009725A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111107C11C33C0B7009725A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 111107C81C33C0B7009725A2;
+			remoteInfo = grabilityTestGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111107C91C33C0B7009725A2 /* grabilityTestGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grabilityTestGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		111107CD1C33C0B8009725A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		111107CF1C33C0B8009725A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		111107D01C33C0B8009725A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		111107D21C33C0B8009725A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		111107D31C33C0B9009725A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		111107D61C33C0B9009725A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		111107D81C33C0BA009725A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		111107DB1C33C0BB009725A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		111107DD1C33C0BC009725A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111107E21C33C0BC009725A2 /* grabilityTestGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grabilityTestGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		111107E61C33C0BD009725A2 /* grabilityTestGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = grabilityTestGridTests.m; sourceTree = "<group>"; };
+		111107E81C33C0BE009725A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111107ED1C33C0BE009725A2 /* grabilityTestGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grabilityTestGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		111107F11C33C0BF009725A2 /* grabilityTestGridUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = grabilityTestGridUITests.m; sourceTree = "<group>"; };
+		111107F31C33C0C1009725A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111107C61C33C0B7009725A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111107DF1C33C0BC009725A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111107EA1C33C0BE009725A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111107C01C33C0B7009725A2 = {
+			isa = PBXGroup;
+			children = (
+				111107CB1C33C0B7009725A2 /* grabilityTestGrid */,
+				111107E51C33C0BD009725A2 /* grabilityTestGridTests */,
+				111107F01C33C0BF009725A2 /* grabilityTestGridUITests */,
+				111107CA1C33C0B7009725A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		111107CA1C33C0B7009725A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				111107C91C33C0B7009725A2 /* grabilityTestGrid.app */,
+				111107E21C33C0BC009725A2 /* grabilityTestGridTests.xctest */,
+				111107ED1C33C0BE009725A2 /* grabilityTestGridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		111107CB1C33C0B7009725A2 /* grabilityTestGrid */ = {
+			isa = PBXGroup;
+			children = (
+				111107CF1C33C0B8009725A2 /* AppDelegate.h */,
+				111107D01C33C0B8009725A2 /* AppDelegate.m */,
+				111107D21C33C0B8009725A2 /* ViewController.h */,
+				111107D31C33C0B9009725A2 /* ViewController.m */,
+				111107D51C33C0B9009725A2 /* Main.storyboard */,
+				111107D81C33C0BA009725A2 /* Assets.xcassets */,
+				111107DA1C33C0BB009725A2 /* LaunchScreen.storyboard */,
+				111107DD1C33C0BC009725A2 /* Info.plist */,
+				111107CC1C33C0B8009725A2 /* Supporting Files */,
+			);
+			path = grabilityTestGrid;
+			sourceTree = "<group>";
+		};
+		111107CC1C33C0B8009725A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				111107CD1C33C0B8009725A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		111107E51C33C0BD009725A2 /* grabilityTestGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				111107E61C33C0BD009725A2 /* grabilityTestGridTests.m */,
+				111107E81C33C0BE009725A2 /* Info.plist */,
+			);
+			path = grabilityTestGridTests;
+			sourceTree = "<group>";
+		};
+		111107F01C33C0BF009725A2 /* grabilityTestGridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				111107F11C33C0BF009725A2 /* grabilityTestGridUITests.m */,
+				111107F31C33C0C1009725A2 /* Info.plist */,
+			);
+			path = grabilityTestGridUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		111107C81C33C0B7009725A2 /* grabilityTestGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111107F61C33C0C1009725A2 /* Build configuration list for PBXNativeTarget "grabilityTestGrid" */;
+			buildPhases = (
+				111107C51C33C0B7009725A2 /* Sources */,
+				111107C61C33C0B7009725A2 /* Frameworks */,
+				111107C71C33C0B7009725A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grabilityTestGrid;
+			productName = grabilityTestGrid;
+			productReference = 111107C91C33C0B7009725A2 /* grabilityTestGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		111107E11C33C0BC009725A2 /* grabilityTestGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111107F91C33C0C1009725A2 /* Build configuration list for PBXNativeTarget "grabilityTestGridTests" */;
+			buildPhases = (
+				111107DE1C33C0BC009725A2 /* Sources */,
+				111107DF1C33C0BC009725A2 /* Frameworks */,
+				111107E01C33C0BC009725A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				111107E41C33C0BC009725A2 /* PBXTargetDependency */,
+			);
+			name = grabilityTestGridTests;
+			productName = grabilityTestGridTests;
+			productReference = 111107E21C33C0BC009725A2 /* grabilityTestGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		111107EC1C33C0BE009725A2 /* grabilityTestGridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111107FC1C33C0C1009725A2 /* Build configuration list for PBXNativeTarget "grabilityTestGridUITests" */;
+			buildPhases = (
+				111107E91C33C0BE009725A2 /* Sources */,
+				111107EA1C33C0BE009725A2 /* Frameworks */,
+				111107EB1C33C0BE009725A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				111107EF1C33C0BE009725A2 /* PBXTargetDependency */,
+			);
+			name = grabilityTestGridUITests;
+			productName = grabilityTestGridUITests;
+			productReference = 111107ED1C33C0BE009725A2 /* grabilityTestGridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		111107C11C33C0B7009725A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ingjohnguerrero;
+				TargetAttributes = {
+					111107C81C33C0B7009725A2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8R2D9WN3M3;
+					};
+					111107E11C33C0BC009725A2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8R2D9WN3M3;
+						TestTargetID = 111107C81C33C0B7009725A2;
+					};
+					111107EC1C33C0BE009725A2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8R2D9WN3M3;
+						TestTargetID = 111107C81C33C0B7009725A2;
+					};
+				};
+			};
+			buildConfigurationList = 111107C41C33C0B7009725A2 /* Build configuration list for PBXProject "grabilityTestGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 111107C01C33C0B7009725A2;
+			productRefGroup = 111107CA1C33C0B7009725A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				111107C81C33C0B7009725A2 /* grabilityTestGrid */,
+				111107E11C33C0BC009725A2 /* grabilityTestGridTests */,
+				111107EC1C33C0BE009725A2 /* grabilityTestGridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		111107C71C33C0B7009725A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111107DC1C33C0BB009725A2 /* LaunchScreen.storyboard in Resources */,
+				111107D91C33C0BA009725A2 /* Assets.xcassets in Resources */,
+				111107D71C33C0B9009725A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111107E01C33C0BC009725A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111107EB1C33C0BE009725A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		111107C51C33C0B7009725A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111107D41C33C0B9009725A2 /* ViewController.m in Sources */,
+				111107D11C33C0B8009725A2 /* AppDelegate.m in Sources */,
+				111107CE1C33C0B8009725A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111107DE1C33C0BC009725A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111107E71C33C0BD009725A2 /* grabilityTestGridTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111107E91C33C0BE009725A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111107F21C33C0BF009725A2 /* grabilityTestGridUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		111107E41C33C0BC009725A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 111107C81C33C0B7009725A2 /* grabilityTestGrid */;
+			targetProxy = 111107E31C33C0BC009725A2 /* PBXContainerItemProxy */;
+		};
+		111107EF1C33C0BE009725A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 111107C81C33C0B7009725A2 /* grabilityTestGrid */;
+			targetProxy = 111107EE1C33C0BE009725A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		111107D51C33C0B9009725A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				111107D61C33C0B9009725A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		111107DA1C33C0BB009725A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				111107DB1C33C0BB009725A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		111107F41C33C0C1009725A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		111107F51C33C0C1009725A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		111107F71C33C0C1009725A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = grabilityTestGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingjohnguerrero.grabilityTestGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		111107F81C33C0C1009725A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = grabilityTestGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingjohnguerrero.grabilityTestGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		111107FA1C33C0C1009725A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = grabilityTestGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingjohnguerrero.grabilityTestGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grabilityTestGrid.app/grabilityTestGrid";
+			};
+			name = Debug;
+		};
+		111107FB1C33C0C1009725A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = grabilityTestGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingjohnguerrero.grabilityTestGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grabilityTestGrid.app/grabilityTestGrid";
+			};
+			name = Release;
+		};
+		111107FD1C33C0C1009725A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = grabilityTestGridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingjohnguerrero.grabilityTestGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = grabilityTestGrid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		111107FE1C33C0C1009725A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = grabilityTestGridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingjohnguerrero.grabilityTestGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = grabilityTestGrid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		111107C41C33C0B7009725A2 /* Build configuration list for PBXProject "grabilityTestGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111107F41C33C0C1009725A2 /* Debug */,
+				111107F51C33C0C1009725A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111107F61C33C0C1009725A2 /* Build configuration list for PBXNativeTarget "grabilityTestGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111107F71C33C0C1009725A2 /* Debug */,
+				111107F81C33C0C1009725A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		111107F91C33C0C1009725A2 /* Build configuration list for PBXNativeTarget "grabilityTestGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111107FA1C33C0C1009725A2 /* Debug */,
+				111107FB1C33C0C1009725A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		111107FC1C33C0C1009725A2 /* Build configuration list for PBXNativeTarget "grabilityTestGridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111107FD1C33C0C1009725A2 /* Debug */,
+				111107FE1C33C0C1009725A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 111107C11C33C0B7009725A2 /* Project object */;
+}
