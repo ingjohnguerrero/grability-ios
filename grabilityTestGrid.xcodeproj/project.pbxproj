@@ -15,6 +15,7 @@
 		111107DC1C33C0BB009725A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111107DA1C33C0BB009725A2 /* LaunchScreen.storyboard */; };
 		111107E71C33C0BD009725A2 /* grabilityTestGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107E61C33C0BD009725A2 /* grabilityTestGridTests.m */; };
 		111107F21C33C0BF009725A2 /* grabilityTestGridUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107F11C33C0BF009725A2 /* grabilityTestGridUITests.m */; };
+		111108041C33C6A3009725A2 /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 111108031C33C6A3009725A2 /* MainCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		111107ED1C33C0BE009725A2 /* grabilityTestGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grabilityTestGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		111107F11C33C0BF009725A2 /* grabilityTestGridUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = grabilityTestGridUITests.m; sourceTree = "<group>"; };
 		111107F31C33C0C1009725A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111108021C33C6A3009725A2 /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainCollectionViewCell.h; path = Views/MainCollectionViewCell.h; sourceTree = "<group>"; };
+		111108031C33C6A3009725A2 /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainCollectionViewCell.m; path = Views/MainCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,9 @@
 		111107CB1C33C0B7009725A2 /* grabilityTestGrid */ = {
 			isa = PBXGroup;
 			children = (
+				111108011C33C5EE009725A2 /* Controllers */,
+				111108001C33C5E7009725A2 /* Views */,
+				111107FF1C33C5E1009725A2 /* Models */,
 				111107CF1C33C0B8009725A2 /* AppDelegate.h */,
 				111107D01C33C0B8009725A2 /* AppDelegate.m */,
 				111107D21C33C0B8009725A2 /* ViewController.h */,
@@ -138,6 +144,29 @@
 				111107F31C33C0C1009725A2 /* Info.plist */,
 			);
 			path = grabilityTestGridUITests;
+			sourceTree = "<group>";
+		};
+		111107FF1C33C5E1009725A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		111108001C33C5E7009725A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				111108021C33C6A3009725A2 /* MainCollectionViewCell.h */,
+				111108031C33C6A3009725A2 /* MainCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		111108011C33C5EE009725A2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +305,7 @@
 				111107D41C33C0B9009725A2 /* ViewController.m in Sources */,
 				111107D11C33C0B8009725A2 /* AppDelegate.m in Sources */,
 				111107CE1C33C0B8009725A2 /* main.m in Sources */,
+				111108041C33C6A3009725A2 /* MainCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
