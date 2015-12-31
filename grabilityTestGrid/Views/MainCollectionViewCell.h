@@ -10,4 +10,10 @@
 
 @interface MainCollectionViewCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *priceLabel;
+@property (weak, nonatomic) IBOutlet UILabel *currencyLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *mainImage;
+
+
 @end

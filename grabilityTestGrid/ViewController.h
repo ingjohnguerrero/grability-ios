@@ -7,12 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainCollectionViewCell.h"
+#import "AFNetworking/AFNetworking.h"
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UILabel *priceLabel;
-@property (weak, nonatomic) IBOutlet UILabel *currencyLabel;
-@property (weak, nonatomic) IBOutlet UIImageView *mainImage;
+@interface ViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource>
+@property (strong, nonatomic) NSString *reuseIdentifier;
 
 @end
 

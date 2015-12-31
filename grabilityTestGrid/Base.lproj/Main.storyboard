@@ -21,6 +21,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4Hb-OC-2DD" userLabel="Apps Collection View">
                                 <rect key="frame" x="20" y="0.0" width="560" height="600"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Ihe-pN-H8I">
                                     <size key="itemSize" width="133" height="148"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -28,7 +29,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Pdh-vL-bMX" customClass="MainCollectionViewCell">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="mainCollectionViewCell" id="Pdh-vL-bMX" customClass="MainCollectionViewCell">
                                         <rect key="frame" x="0.0" y="0.0" width="133" height="148"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -37,20 +38,21 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w98-fe-ioE">
                                                     <rect key="frame" x="50" y="8" width="34" height="21"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="cellTitle"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SSB-ET-qsc">
                                                     <rect key="frame" x="10" y="119" width="35" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3NH-4Z-Wvu">
                                                     <rect key="frame" x="88" y="119" width="35" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A5w-qD-MlD">
@@ -73,6 +75,12 @@
                                             <constraint firstItem="A5w-qD-MlD" firstAttribute="centerY" secondItem="Pdh-vL-bMX" secondAttribute="centerY" id="vat-jo-s0I"/>
                                             <constraint firstAttribute="trailing" secondItem="3NH-4Z-Wvu" secondAttribute="trailing" constant="10" id="yya-By-LFH"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="currencyLabel" destination="3NH-4Z-Wvu" id="JHX-Dg-5wR"/>
+                                            <outlet property="mainImage" destination="A5w-qD-MlD" id="RBT-V5-yg9"/>
+                                            <outlet property="priceLabel" destination="SSB-ET-qsc" id="65c-w9-Kmz"/>
+                                            <outlet property="titleLabel" destination="w98-fe-ioE" id="L6M-fh-sLO"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -89,12 +97,6 @@
                             <constraint firstAttribute="trailingMargin" secondItem="4Hb-OC-2DD" secondAttribute="trailing" id="Wgm-dA-0eq"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="currencyLabel" destination="3NH-4Z-Wvu" id="or5-b2-d3L"/>
-                        <outlet property="mainImage" destination="A5w-qD-MlD" id="H7S-5Y-BGm"/>
-                        <outlet property="priceLabel" destination="SSB-ET-qsc" id="akn-1j-gEb"/>
-                        <outlet property="titleLabel" destination="w98-fe-ioE" id="dRC-ir-ra0"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
