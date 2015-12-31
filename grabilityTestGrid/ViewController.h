@@ -12,6 +12,8 @@
 
 @interface ViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource>
 @property (strong, nonatomic) NSString *reuseIdentifier;
+@property (strong, nonatomic) NSMutableArray *appArray;
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
 

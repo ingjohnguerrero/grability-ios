@@ -16,6 +16,7 @@
 		111107E71C33C0BD009725A2 /* grabilityTestGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107E61C33C0BD009725A2 /* grabilityTestGridTests.m */; };
 		111107F21C33C0BF009725A2 /* grabilityTestGridUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107F11C33C0BF009725A2 /* grabilityTestGridUITests.m */; };
 		111108041C33C6A3009725A2 /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 111108031C33C6A3009725A2 /* MainCollectionViewCell.m */; };
+		6004E931496D1C3C4EB1571A /* libPods-grabilityTestGrid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D90B3F8A275C6FE029E6432E /* libPods-grabilityTestGrid.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,9 @@
 		111107F31C33C0C1009725A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		111108021C33C6A3009725A2 /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainCollectionViewCell.h; path = Views/MainCollectionViewCell.h; sourceTree = "<group>"; };
 		111108031C33C6A3009725A2 /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainCollectionViewCell.m; path = Views/MainCollectionViewCell.m; sourceTree = "<group>"; };
+		7D559BC54693E09B8DBE1D25 /* Pods-grabilityTestGrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grabilityTestGrid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-grabilityTestGrid/Pods-grabilityTestGrid.debug.xcconfig"; sourceTree = "<group>"; };
+		D90B3F8A275C6FE029E6432E /* libPods-grabilityTestGrid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-grabilityTestGrid.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1213E68FFABB1CD6394C55 /* Pods-grabilityTestGrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grabilityTestGrid.release.xcconfig"; path = "Pods/Target Support Files/Pods-grabilityTestGrid/Pods-grabilityTestGrid.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6004E931496D1C3C4EB1571A /* libPods-grabilityTestGrid.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,8 @@
 				111107E51C33C0BD009725A2 /* grabilityTestGridTests */,
 				111107F01C33C0BF009725A2 /* grabilityTestGridUITests */,
 				111107CA1C33C0B7009725A2 /* Products */,
+				D3202E1C4171843D7E41A889 /* Pods */,
+				A0B2CCFA85E363B8E335C17D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +176,23 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
+		A0B2CCFA85E363B8E335C17D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90B3F8A275C6FE029E6432E /* libPods-grabilityTestGrid.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3202E1C4171843D7E41A889 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D559BC54693E09B8DBE1D25 /* Pods-grabilityTestGrid.debug.xcconfig */,
+				EB1213E68FFABB1CD6394C55 /* Pods-grabilityTestGrid.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 111107F61C33C0C1009725A2 /* Build configuration list for PBXNativeTarget "grabilityTestGrid" */;
 			buildPhases = (
+				EF22204270ACBC82DFA75A55 /* Check Pods Manifest.lock */,
 				111107C51C33C0B7009725A2 /* Sources */,
 				111107C61C33C0B7009725A2 /* Frameworks */,
 				111107C71C33C0B7009725A2 /* Resources */,
+				258EC083B7DF03A6C46A459E /* Embed Pods Frameworks */,
+				674F6C541509D8A42CF13FAE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -296,6 +323,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		258EC083B7DF03A6C46A459E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-grabilityTestGrid/Pods-grabilityTestGrid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		674F6C541509D8A42CF13FAE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-grabilityTestGrid/Pods-grabilityTestGrid-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF22204270ACBC82DFA75A55 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		111107C51C33C0B7009725A2 /* Sources */ = {
@@ -444,6 +519,7 @@
 		};
 		111107F71C33C0C1009725A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D559BC54693E09B8DBE1D25 /* Pods-grabilityTestGrid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = grabilityTestGrid/Info.plist;
@@ -455,6 +531,7 @@
 		};
 		111107F81C33C0C1009725A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB1213E68FFABB1CD6394C55 /* Pods-grabilityTestGrid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = grabilityTestGrid/Info.plist;
@@ -531,6 +608,7 @@
 				111107F81C33C0C1009725A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		111107F91C33C0C1009725A2 /* Build configuration list for PBXNativeTarget "grabilityTestGridTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +617,7 @@
 				111107FB1C33C0C1009725A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		111107FC1C33C0C1009725A2 /* Build configuration list for PBXNativeTarget "grabilityTestGridUITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +626,7 @@
 				111107FE1C33C0C1009725A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
