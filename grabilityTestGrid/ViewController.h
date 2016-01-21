@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "MainCollectionViewCell.h"
 #import "AFNetworking/AFNetworking.h"
+#import "CoolUIStoryboardSegue.h"
 
 @interface ViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource>
 @property (strong, nonatomic) NSString *reuseIdentifier;
 @property (strong, nonatomic) NSMutableArray *appArray;
-@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
 

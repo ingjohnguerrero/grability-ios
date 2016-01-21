@@ -106,13 +106,56 @@
      */
     UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:imagePath]]];//image;
     
-    [cell.mainImage setImage:image];
+    //if (cell.mainImage.image == nil){
+        [cell.mainImage setImage:image];
+    //}
+    
     
     cell.titleLabel.text = [[[_appArray objectAtIndex:indexPath.row] valueForKey:@"im:name"]valueForKey:@"label"];
     cell.priceLabel.text = [[[[_appArray objectAtIndex:indexPath.row] valueForKey:@"im:price"]valueForKey:@"attributes"] valueForKey:@"amount"];
     cell.currencyLabel.text = [[[[_appArray objectAtIndex:indexPath.row] valueForKey:@"im:price"]valueForKey:@"attributes"] valueForKey:@"currency"];
     
     return cell;
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"AppDetailSegue"]) {
+        // get index path of selected cell
+        NSIndexPath *indexPath = [_collectionView.indexPathsForSelectedItems objectAtIndex:0];
+        // get the cell object
+        MainCollectionViewCell *cell = (MainCollectionViewCell *)[_collectionView cellForItemAtIndexPath:indexPath];
+        
+        NSLog(@"Clase de destino: %@", [[segue destinationViewController]class]);
+        AppDetailViewController *destination = [segue destinationViewController];
+        destination.view = destination.view;
+        
+        destination.appNameLbl.text = @"Hello";
+        destination.titleNavItem.title = @"Here goes the title";
+        
+        // get image from selected cell
+        //self.image = cell.imageView.image;
+    }
+}
+
+-(UIStoryboardSegue*)segueForUnwindingToViewController:(UIViewController *)toViewController fromViewController:(UIViewController *)fromViewController identifier:(NSString *)identifier{
+    NSLog(@"%@", identifier);
+    UIStoryboardSegue *unWindSegue;
+   if([identifier  isEqual: @"AppDetailSegueUnWind"]){
+        unWindSegue = [[CoolUIStoryboardSegue alloc]initWithIdentifier:identifier source:fromViewController destination:toViewController];
+    }
+    
+    return unWindSegue;
+}
+
+- (IBAction)returnFromAppDetailScene:(UIStoryboardSegue*)segue {
+    //self.sceneLabel.text = @"Returned from scene 2";
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    MainCollectionViewCell *cell = (MainCollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
+    NSLog(@"%@", cell.titleLabel.text);
+    [self performSegueWithIdentifier:@"AppDetailSegue" sender:self];
 }
 
 #pragma mark Collection layout

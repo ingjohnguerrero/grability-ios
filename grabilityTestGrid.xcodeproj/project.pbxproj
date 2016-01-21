@@ -10,12 +10,15 @@
 		111107CE1C33C0B8009725A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107CD1C33C0B8009725A2 /* main.m */; };
 		111107D11C33C0B8009725A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107D01C33C0B8009725A2 /* AppDelegate.m */; };
 		111107D41C33C0B9009725A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107D31C33C0B9009725A2 /* ViewController.m */; };
-		111107D71C33C0B9009725A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111107D51C33C0B9009725A2 /* Main.storyboard */; };
 		111107D91C33C0BA009725A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111107D81C33C0BA009725A2 /* Assets.xcassets */; };
 		111107DC1C33C0BB009725A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111107DA1C33C0BB009725A2 /* LaunchScreen.storyboard */; };
 		111107E71C33C0BD009725A2 /* grabilityTestGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107E61C33C0BD009725A2 /* grabilityTestGridTests.m */; };
 		111107F21C33C0BF009725A2 /* grabilityTestGridUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111107F11C33C0BF009725A2 /* grabilityTestGridUITests.m */; };
 		111108041C33C6A3009725A2 /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 111108031C33C6A3009725A2 /* MainCollectionViewCell.m */; };
+		116EE9AD1C50C1A600DEED4F /* CoolUIStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 116EE9AC1C50C1A600DEED4F /* CoolUIStoryboardSegue.m */; };
+		116EE9B11C50CD5100DEED4F /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116EE9B01C50CD5100DEED4F /* MainNavigationController.m */; };
+		116EE9B41C50CFDF00DEED4F /* AppDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116EE9B31C50CFDF00DEED4F /* AppDetailViewController.m */; };
+		116EE9B71C50D40700DEED4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116EE9B51C50D40700DEED4F /* Main.storyboard */; };
 		6004E931496D1C3C4EB1571A /* libPods-grabilityTestGrid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D90B3F8A275C6FE029E6432E /* libPods-grabilityTestGrid.a */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +46,6 @@
 		111107D01C33C0B8009725A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		111107D21C33C0B8009725A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		111107D31C33C0B9009725A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		111107D61C33C0B9009725A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		111107D81C33C0BA009725A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		111107DB1C33C0BB009725A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		111107DD1C33C0BC009725A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +57,13 @@
 		111107F31C33C0C1009725A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		111108021C33C6A3009725A2 /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainCollectionViewCell.h; path = Views/MainCollectionViewCell.h; sourceTree = "<group>"; };
 		111108031C33C6A3009725A2 /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainCollectionViewCell.m; path = Views/MainCollectionViewCell.m; sourceTree = "<group>"; };
+		116EE9AB1C50C1A600DEED4F /* CoolUIStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoolUIStoryboardSegue.h; path = Segues/CoolUIStoryboardSegue.h; sourceTree = "<group>"; };
+		116EE9AC1C50C1A600DEED4F /* CoolUIStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoolUIStoryboardSegue.m; path = Segues/CoolUIStoryboardSegue.m; sourceTree = "<group>"; };
+		116EE9AF1C50CD5100DEED4F /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainNavigationController.h; path = NavigationControllers/MainNavigationController.h; sourceTree = "<group>"; };
+		116EE9B01C50CD5100DEED4F /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainNavigationController.m; path = NavigationControllers/MainNavigationController.m; sourceTree = "<group>"; };
+		116EE9B21C50CFDF00DEED4F /* AppDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDetailViewController.h; path = Controllers/AppDetailViewController.h; sourceTree = "<group>"; };
+		116EE9B31C50CFDF00DEED4F /* AppDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDetailViewController.m; path = Controllers/AppDetailViewController.m; sourceTree = "<group>"; };
+		116EE9B61C50D40700DEED4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D559BC54693E09B8DBE1D25 /* Pods-grabilityTestGrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grabilityTestGrid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-grabilityTestGrid/Pods-grabilityTestGrid.debug.xcconfig"; sourceTree = "<group>"; };
 		D90B3F8A275C6FE029E6432E /* libPods-grabilityTestGrid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-grabilityTestGrid.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1213E68FFABB1CD6394C55 /* Pods-grabilityTestGrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grabilityTestGrid.release.xcconfig"; path = "Pods/Target Support Files/Pods-grabilityTestGrid/Pods-grabilityTestGrid.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +120,8 @@
 		111107CB1C33C0B7009725A2 /* grabilityTestGrid */ = {
 			isa = PBXGroup;
 			children = (
+				116EE9AE1C50CCFA00DEED4F /* NavigationControllers */,
+				116EE9AA1C50C10300DEED4F /* Segues */,
 				111108011C33C5EE009725A2 /* Controllers */,
 				111108001C33C5E7009725A2 /* Views */,
 				111107FF1C33C5E1009725A2 /* Models */,
@@ -118,8 +129,8 @@
 				111107D01C33C0B8009725A2 /* AppDelegate.m */,
 				111107D21C33C0B8009725A2 /* ViewController.h */,
 				111107D31C33C0B9009725A2 /* ViewController.m */,
-				111107D51C33C0B9009725A2 /* Main.storyboard */,
 				111107D81C33C0BA009725A2 /* Assets.xcassets */,
+				116EE9B51C50D40700DEED4F /* Main.storyboard */,
 				111107DA1C33C0BB009725A2 /* LaunchScreen.storyboard */,
 				111107DD1C33C0BC009725A2 /* Info.plist */,
 				111107CC1C33C0B8009725A2 /* Supporting Files */,
@@ -172,8 +183,28 @@
 		111108011C33C5EE009725A2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				116EE9B21C50CFDF00DEED4F /* AppDetailViewController.h */,
+				116EE9B31C50CFDF00DEED4F /* AppDetailViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		116EE9AA1C50C10300DEED4F /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				116EE9AB1C50C1A600DEED4F /* CoolUIStoryboardSegue.h */,
+				116EE9AC1C50C1A600DEED4F /* CoolUIStoryboardSegue.m */,
+			);
+			name = Segues;
+			sourceTree = "<group>";
+		};
+		116EE9AE1C50CCFA00DEED4F /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				116EE9AF1C50CD5100DEED4F /* MainNavigationController.h */,
+				116EE9B01C50CD5100DEED4F /* MainNavigationController.m */,
+			);
+			name = NavigationControllers;
 			sourceTree = "<group>";
 		};
 		A0B2CCFA85E363B8E335C17D /* Frameworks */ = {
@@ -302,9 +333,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116EE9B71C50D40700DEED4F /* Main.storyboard in Resources */,
 				111107DC1C33C0BB009725A2 /* LaunchScreen.storyboard in Resources */,
 				111107D91C33C0BA009725A2 /* Assets.xcassets in Resources */,
-				111107D71C33C0B9009725A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +410,10 @@
 			files = (
 				111107D41C33C0B9009725A2 /* ViewController.m in Sources */,
 				111107D11C33C0B8009725A2 /* AppDelegate.m in Sources */,
+				116EE9B11C50CD5100DEED4F /* MainNavigationController.m in Sources */,
+				116EE9AD1C50C1A600DEED4F /* CoolUIStoryboardSegue.m in Sources */,
 				111107CE1C33C0B8009725A2 /* main.m in Sources */,
+				116EE9B41C50CFDF00DEED4F /* AppDetailViewController.m in Sources */,
 				111108041C33C6A3009725A2 /* MainCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,20 +450,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		111107D51C33C0B9009725A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				111107D61C33C0B9009725A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		111107DA1C33C0BB009725A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				111107DB1C33C0BB009725A2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		116EE9B51C50D40700DEED4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116EE9B61C50D40700DEED4F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
