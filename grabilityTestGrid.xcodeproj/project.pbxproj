@@ -20,6 +20,7 @@
 		116EE9B41C50CFDF00DEED4F /* AppDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116EE9B31C50CFDF00DEED4F /* AppDetailViewController.m */; };
 		116EE9B71C50D40700DEED4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116EE9B51C50D40700DEED4F /* Main.storyboard */; };
 		6004E931496D1C3C4EB1571A /* libPods-grabilityTestGrid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D90B3F8A275C6FE029E6432E /* libPods-grabilityTestGrid.a */; };
+		C1C547C61C5176AB0096FF52 /* StoreApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C547C51C5176AB0096FF52 /* StoreApplication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		116EE9B31C50CFDF00DEED4F /* AppDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDetailViewController.m; path = Controllers/AppDetailViewController.m; sourceTree = "<group>"; };
 		116EE9B61C50D40700DEED4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D559BC54693E09B8DBE1D25 /* Pods-grabilityTestGrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grabilityTestGrid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-grabilityTestGrid/Pods-grabilityTestGrid.debug.xcconfig"; sourceTree = "<group>"; };
+		C1C547C41C5176AB0096FF52 /* StoreApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoreApplication.h; path = Models/StoreApplication.h; sourceTree = "<group>"; };
+		C1C547C51C5176AB0096FF52 /* StoreApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoreApplication.m; path = Models/StoreApplication.m; sourceTree = "<group>"; };
 		D90B3F8A275C6FE029E6432E /* libPods-grabilityTestGrid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-grabilityTestGrid.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1213E68FFABB1CD6394C55 /* Pods-grabilityTestGrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grabilityTestGrid.release.xcconfig"; path = "Pods/Target Support Files/Pods-grabilityTestGrid/Pods-grabilityTestGrid.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,6 +170,8 @@
 		111107FF1C33C5E1009725A2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C1C547C41C5176AB0096FF52 /* StoreApplication.h */,
+				C1C547C51C5176AB0096FF52 /* StoreApplication.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -414,6 +419,7 @@
 				116EE9AD1C50C1A600DEED4F /* CoolUIStoryboardSegue.m in Sources */,
 				111107CE1C33C0B8009725A2 /* main.m in Sources */,
 				116EE9B41C50CFDF00DEED4F /* AppDetailViewController.m in Sources */,
+				C1C547C61C5176AB0096FF52 /* StoreApplication.m in Sources */,
 				111108041C33C6A3009725A2 /* MainCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
