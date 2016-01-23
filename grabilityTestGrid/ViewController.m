@@ -52,11 +52,28 @@
             //return nil;
         }else{
             NSMutableArray *appsArray = [[NSMutableArray alloc] init];
+            StoreApplication *storeApp;
             NSArray *results = [(NSData *)parsedObject valueForKey:@"entry"];
             NSLog(@"Count %lu", (unsigned long)results.count);
             for (NSDictionary *appDict in results) {
+                storeApp = [StoreApplication new];
                 NSLog(@"Name: %@", [[appDict valueForKey:@"im:name"] valueForKey:@"label"]);
-                [_appArray addObject:appDict];//[[appDict valueForKey:@"im:name"] valueForKey:@"label"]];
+                //[_appArray addObject:appDict];//[[appDict valueForKey:@"im:name"] valueForKey:@"label"]];
+                [storeApp setAppId:[[appDict valueForKey:@"im:name"] valueForKey:@"label"]];
+                
+                [storeApp setName:[[appDict valueForKey:@"im:name"] valueForKey:@"label"]];
+                
+                /*
+                 @property int appId;
+                 @property NSString *imgPath;
+                 @property NSString *name;
+                 @property NSString *summary;
+                 @property NSString *price;
+                 @property NSString *currency;
+                 */
+                
+                [_appArray addObject:storeApp];
+                
             }
             [self.collectionView reloadData];
             

@@ -10,6 +10,7 @@
 #import "MainCollectionViewCell.h"
 #import "AFNetworking/AFNetworking.h"
 #import "CoolUIStoryboardSegue.h"
+#import "StoreApplication.h"
 
 @interface ViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource>
 @property (strong, nonatomic) NSString *reuseIdentifier;

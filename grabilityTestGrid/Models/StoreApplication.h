@@ -10,4 +10,11 @@
 
 @interface StoreApplication : NSObject
 
+@property NSString *appId;
+@property NSString *imgPath;
+@property NSString *name;
+@property NSString *summary;
+@property NSString *price;
+@property NSString *currency;
+
 @end
