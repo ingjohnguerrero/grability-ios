@@ -21,6 +21,7 @@
         _reuseIdentifier = @"mainCollectionViewCell";
     }
     _appArray = [NSMutableArray new];
+    _resultArray = [NSMutableArray new];
     [self getAppSInfo];
     
 }
@@ -58,11 +59,16 @@
             for (NSDictionary *appDict in results) {
                 storeApp = [StoreApplication new];
                 NSLog(@"Name: %@", [[appDict valueForKey:@"im:name"] valueForKey:@"label"]);
-                //[_appArray addObject:appDict];//[[appDict valueForKey:@"im:name"] valueForKey:@"label"]];
+                [_resultArray addObject:appDict];//[[appDict valueForKey:@"im:name"] valueForKey:@"label"]];
                 [storeApp setAppId:[[appDict valueForKey:@"im:name"] valueForKey:@"label"]];
                 
                 [storeApp setName:[[appDict valueForKey:@"im:name"] valueForKey:@"label"]];
                 
+                [storeApp setPrice:[[[appDict valueForKey:@"im:price"] valueForKey:@"attributes"] valueForKey:@"amout"]];
+                
+                [storeApp setCurrency:[[[appDict valueForKey:@"im:price"] valueForKey:@"attributes"] valueForKey:@"currency"]];
+                
+                [storeApp setSummary:[appDict valueForKey:@"summary"]];
                 /*
                  @property int appId;
                  @property NSString *imgPath;
@@ -109,11 +115,11 @@
     float displayScale = [UIScreen mainScreen].scale;
     
     if (displayScale < 2.0) {
-        imagePath = [[[_appArray objectAtIndex:indexPath.row] valueForKey:@"im:image"][0]valueForKey:@"label"];
+        imagePath = [[[_resultArray objectAtIndex:indexPath.row] valueForKey:@"im:image"][0]valueForKey:@"label"];
     }else if (displayScale == 2.0){
-        imagePath = [[[_appArray objectAtIndex:indexPath.row] valueForKey:@"im:image"][1]valueForKey:@"label"];
+        imagePath = [[[_resultArray objectAtIndex:indexPath.row] valueForKey:@"im:image"][1]valueForKey:@"label"];
     }else if (displayScale > 2.0){
-        imagePath = [[[_appArray objectAtIndex:indexPath.row] valueForKey:@"im:image"][2]valueForKey:@"label"];
+        imagePath = [[[_resultArray objectAtIndex:indexPath.row] valueForKey:@"im:image"][2]valueForKey:@"label"];
     }
     
     /*
@@ -128,9 +134,9 @@
     //}
     
     
-    cell.titleLabel.text = [[[_appArray objectAtIndex:indexPath.row] valueForKey:@"im:name"]valueForKey:@"label"];
-    cell.priceLabel.text = [[[[_appArray objectAtIndex:indexPath.row] valueForKey:@"im:price"]valueForKey:@"attributes"] valueForKey:@"amount"];
-    cell.currencyLabel.text = [[[[_appArray objectAtIndex:indexPath.row] valueForKey:@"im:price"]valueForKey:@"attributes"] valueForKey:@"currency"];
+    cell.titleLabel.text = [[[_resultArray objectAtIndex:indexPath.row] valueForKey:@"im:name"]valueForKey:@"label"];
+    cell.priceLabel.text = [[[[_resultArray objectAtIndex:indexPath.row] valueForKey:@"im:price"]valueForKey:@"attributes"] valueForKey:@"amount"];
+    cell.currencyLabel.text = [[[[_resultArray objectAtIndex:indexPath.row] valueForKey:@"im:price"]valueForKey:@"attributes"] valueForKey:@"currency"];
     
     return cell;
 }
