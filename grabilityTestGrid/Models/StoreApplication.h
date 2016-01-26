@@ -7,8 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface StoreApplication : NSObject
+#define kDataFile       @"data.plist"
+
+@interface StoreApplication : NSObject<NSCoding>{
+    NSString *_docPath;
+}
 
 @property NSString *appId;
 @property NSString *imgPath;
@@ -16,5 +21,11 @@
 @property NSString *summary;
 @property NSString *price;
 @property NSString *currency;
+@property NSString *categoryId;
+@property NSString *categoryTerm;
+@property UIImage *appImage;
+
++ (NSString *)getPrivateDocsDir;
++ (NSURL *)getFileURL;
 
 @end

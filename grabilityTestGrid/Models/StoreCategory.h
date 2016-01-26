@@ -10,7 +10,7 @@
 
 @interface StoreCategory : NSObject
 
-@property int category_id;
+@property NSString *category_id;
 @property NSString *term;
 @property NSString *label;
 

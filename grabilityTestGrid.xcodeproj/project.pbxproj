@@ -21,6 +21,7 @@
 		116EE9B71C50D40700DEED4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116EE9B51C50D40700DEED4F /* Main.storyboard */; };
 		6004E931496D1C3C4EB1571A /* libPods-grabilityTestGrid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D90B3F8A275C6FE029E6432E /* libPods-grabilityTestGrid.a */; };
 		C11A80261C53CD6E0001A9CC /* StoreCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C11A80251C53CD6E0001A9CC /* StoreCategory.m */; };
+		C133E0911C57F5BA0046F986 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C133E0901C57F5BA0046F986 /* SystemConfiguration.framework */; };
 		C1C547C61C5176AB0096FF52 /* StoreApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C547C51C5176AB0096FF52 /* StoreApplication.m */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		7D559BC54693E09B8DBE1D25 /* Pods-grabilityTestGrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grabilityTestGrid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-grabilityTestGrid/Pods-grabilityTestGrid.debug.xcconfig"; sourceTree = "<group>"; };
 		C11A80241C53CD6E0001A9CC /* StoreCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoreCategory.h; path = Models/StoreCategory.h; sourceTree = "<group>"; };
 		C11A80251C53CD6E0001A9CC /* StoreCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoreCategory.m; path = Models/StoreCategory.m; sourceTree = "<group>"; };
+		C133E0901C57F5BA0046F986 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C1C547C41C5176AB0096FF52 /* StoreApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoreApplication.h; path = Models/StoreApplication.h; sourceTree = "<group>"; };
 		C1C547C51C5176AB0096FF52 /* StoreApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoreApplication.m; path = Models/StoreApplication.m; sourceTree = "<group>"; };
 		D90B3F8A275C6FE029E6432E /* libPods-grabilityTestGrid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-grabilityTestGrid.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C133E0911C57F5BA0046F986 /* SystemConfiguration.framework in Frameworks */,
 				6004E931496D1C3C4EB1571A /* libPods-grabilityTestGrid.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +223,7 @@
 		A0B2CCFA85E363B8E335C17D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C133E0901C57F5BA0046F986 /* SystemConfiguration.framework */,
 				D90B3F8A275C6FE029E6432E /* libPods-grabilityTestGrid.a */,
 			);
 			name = Frameworks;

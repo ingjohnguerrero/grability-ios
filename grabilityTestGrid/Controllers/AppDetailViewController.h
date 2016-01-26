@@ -11,5 +11,9 @@
 @interface AppDetailViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UINavigationItem *titleNavItem;
 @property (weak, nonatomic) IBOutlet UILabel *appNameLbl;
+@property (weak, nonatomic) IBOutlet UIImageView *appIconUIImage;
+@property (weak, nonatomic) IBOutlet UITextView *summaryTextView;
+@property (weak, nonatomic) IBOutlet UILabel *currencyLabl;
+@property (weak, nonatomic) IBOutlet UILabel *priceLbl;
 
 @end
